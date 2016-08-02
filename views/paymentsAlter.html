@@ -1,0 +1,18 @@
+  <div class="alterview">
+    <h1>Hi {{id}}</h1>
+
+    <form name="alterpay" class="alterpay" ng-submit="alterPay(alterNumber, alterCause)">
+      <div class="form-group">
+        <label for="exampleInputEmail1">Amount</label>
+        <input type="number" name="amount" ng-model="alterNumber" class="form-control" id="exampleInputEmail1" placeholder="Amount" required>
+
+      </div>
+      <div class="form-group">
+        <label for="exampleInputPassword1">Cause</label>
+        <input type="text" name="cause" ng-model="alterCause" class="form-control" id="exampleInputPassword1" placeholder="Cause" required>
+
+      </div>
+
+      <button type="submit" class="btn btn-default" ng-click="updateTable">Change</button>
+    </form>
+  </div>

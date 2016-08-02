@@ -1,0 +1,12 @@
+<div class="alteruser">
+  <h1>Hi {{user.name}}</h1>
+
+  <form name="alteruser" class="alterpay" ng-submit="changeName(user.id, newUser)">
+    <div class="form-group">
+      <label for="newUser">New name</label>
+      <input type="text" name="newUser" ng-model="newUser" class="form-control" id="exampleInputEmail1" placeholder="New name" required>
+    </div>
+
+    <button type="submit" class="btn btn-default" ng-click="updateTable">Change</button>
+  </form>
+</div>

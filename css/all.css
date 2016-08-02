@@ -1,0 +1,5 @@
+@media screen and (max-width: 800px){header ul{width:100% !important}.paytable.row{margin:0;overflow:hidden}.paytable.row div.innerpay{overflow:auto}}
+
+.newpay{box-sizing:border-box;margin:50px auto !important}.newpay h1{display:inline-block;margin:20px auto}.newpay h4.bg-success{width:100%;line-height:40px;text-align:center;border-radius:8px}.paytable.row{margin:0}.paytable.row table{text-align:center;overflow:auto}mysearch form{width:80%;margin:0 auto}.alterview{width:80%;margin:0 auto}
+
+*{margin:0;padding:0;font-family:sans-serif}header{background-color:#3399ff;height:60px}header ul{text-align:center;width:30%;margin:0 auto}header ul li{display:inline-block;margin-right:30px}header ul li a{line-height:60px;display:inline-block;color:white;text-decoration:none}header ul li a:hover,header ul li a:visited,header ul li a:active,header ul li a:focus{text-decoration:none;color:#cce6ff}header ul li a:focus{color:#005cb3}div.alteruser{width:80%;margin:0 auto}

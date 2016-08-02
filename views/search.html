@@ -1,0 +1,4 @@
+<form name="search" class="mysearch">
+  <select ng-init="search = ''" ng-model="search" ng-options="item.creator.id as item.creator.name for item in myOptions track by item.creator.id " ng-model="selected"></select>
+</form>
+<br>

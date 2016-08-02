@@ -1,0 +1,14 @@
+@media screen and (max-width: 800px) {
+  header {
+    ul {
+      width: 100% !important;
+    }
+  }
+  .paytable.row {
+    margin: 0;
+    overflow: hidden;
+    div.innerpay {
+      overflow: auto;
+    }
+  }
+}

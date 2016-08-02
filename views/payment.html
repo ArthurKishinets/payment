@@ -1,0 +1,23 @@
+<div class="newpay row" >
+  <div class="col-xs-10 col-xs-offset-1">
+    <h1>Hello, {{currentUser.name}}</h1>
+    <h4 ng-show="showSM" class="bg-success">Payment confirmed</h4>
+    <form name="main.inputform" ng-submit="formSubmit(amount, cause)">
+      <div class="form-group">
+        <label for="amount">Amount</label>
+        <input type="number" name="amount" ng-model="amount" class="form-control" id="exampleInputEmail1" placeholder="Amount" required>
+
+      </div>
+      <div class="form-group">
+        <label for="cause">Cause</label>
+        <input type="text" name="cause" ng-model="cause" class="form-control" id="exampleInputPassword1" placeholder="Cause" required>
+
+      </div>
+
+      <button type="submit" class="btn btn-default" ng-click="updateTable">Pay</button>
+    </form>
+  </div>
+</div>
+<mysearch></mysearch>
+<div class="mysearch"></div>
+<payments-table payments="payments"></payments-table>

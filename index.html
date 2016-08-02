@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html ng-app="neolent">
+<head>
+	<title>neolent</title>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/all.css">
+	<link rel="stylesheet" type="text/css" href="font/font-awesome/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+	<!-- HTML5 SHIV -->
+	<!--[if lt IE 9]>
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.js"></script>
+	<![endif]-->
+</head>
+<body ng-controller="mainController as main">
+
+	<header>
+		<ul>
+			<li><a ui-sref="user">user page</a></li>
+			<li><a ui-sref="payment">payment page</a></li>
+		</ul>
+	</header>
+
+
+	<main ui-view></main>
+
+
+	<script type="text/javascript" src="node_modules/angular/angular.min.js"></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.3.1/angular-ui-router.js"></script>
+	<script type="text/javascript" src="minjs/all.js"></script>
+</body>
+</html>

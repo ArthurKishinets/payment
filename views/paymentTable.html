@@ -1,0 +1,23 @@
+<div class="row paytable">
+  <div class="col-sm-10 col-sm-offset-1 innerpay">
+    <table class="table table-hover ">
+      <div>
+        <tr>
+          <td>Id</td>
+          <td>Amount</td>
+          <td>Cause</td>
+        </tr>
+        <tr ng-repeat="item in payments | filter: search" ng-click='alterPay(item.id)'>
+          <td>{{item.id}}</td>
+          <td>{{item.amount}}</td>
+          <td>{{item.cause}}</td>
+        </tr>
+        <tr>
+          <td>all</td>
+          <td>{{sumPayments}}</td>
+          <td>{{amountPay}}</td>
+        </tr>
+      </div>
+    </table>
+  </div>
+</div>
